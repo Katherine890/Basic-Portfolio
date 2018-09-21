@@ -101,6 +101,7 @@ p {
     padding-left: 30px;
     padding-right: 50px;
     padding-top: 15px;
+    border: 1px solid #dddddd;
 }
 
 .ai,
@@ -174,6 +175,7 @@ input {
     width: 900px;
     position: relative;
     bottom: 100px;
+    border: 1px solid #dddddd;
 }
 
 .submit {
