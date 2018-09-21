@@ -1,32 +1,233 @@
+body {
+    background-image: url("file:///C:/Users/Katherine/Basic-Portfolio/assets/images/brushed/brushed_@2x.png");
+    margin: auto 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .container {
-    margin-right: 280px;
+    margin-right: 296px;
     margin-left: 280px;
 }
 
-h1 {
-    font-family: "Georgia", "Times", "Times New Roman", "serif";
-    color: #62a8a0;
-}
-
-p {
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+header {
+    border-top: 65px solid #ffffff;
+    border-bottom-color: 5px #cccccc;
+    position: relative;
+    top: 1px;
 }
 
 .name {
     color: white;
-    background-color: #62a8a0;
+    background-color: #4aaaa5;
     width: 300px; 
     text-align: center;
     padding: 15px 20px;
     margin-bottom: 40px;
     margin-left: 280px;
+    border-bottom: none;
+    position: relative;
+    bottom: 88px;
 }
 
-#name-contact {
+hr {
+    position: relative;
+    bottom: 127px;
+}
+
+.name-contact {
     float: right;
-    margin-bottom: 70px;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    bottom: 200px;
+    position: relative;
 }
 
-#about {
-    
+a {
+    float: right;
+    border-right: 1.5px solid silver;
+    color: #777777;
+    text-decoration: none;
+    padding: 0.05em 1em;
+}
+
+.special {
+    border-right: none;
+}
+
+li {
+    display: inline;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.about {
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 90px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+h1 {after
+
+    display: block;
+    border-bottom: 2px solid silver;
+    padding-bottom: 20px;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    color: #4aaaa5;
+}
+
+p {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+#image {
+    float: left;
+    margin: 10px 30px 20px 0px;
+}
+
+.portfolio {
+    float: left;
+    position: relative;
+    bottom: 150px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+.ai,
+.health,
+.dance,
+.film,
+.music {
+    position: relative;
+    bottom: 75px;
+    background-color: #4aaaa5;
+    padding: 3px;
+    text-align: center;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    color: #ffffff;
+}
+
+.ai-section {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.health-section {
+    float: right;
+    position: relative;
+    top: 325px;
+    right: 690px;
+}
+
+.dance-section {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.film-section {
+    float: left;
+    position: relative;
+    right: 160px;
+    top: 165px;
+}
+
+.music-section {
+    float: left;
+    position: relative;
+    bottom: 35px;
+    left: 1px;
+}
+
+.ai-image,
+.health-image,
+.dance-image,
+.film-image,
+.music-image {
+    width: 190px;
+    height: 120px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+.contact {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 900px;
+    position: relative;
+    bottom: 100px;
+}
+
+.submit {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+}
+
+footer {
+    border-style: solid;
+    border-width: 45px;
+    border-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+    position: relative;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+}
+
+.p-footer {
+    border-style: solid;
+    border-width: 30px;
+    border-color: #666666;
+    position: relative;
+    top: 520px;
+    margin: 0;
+    width: 100%;
+}
+
+.p-footer-border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+    position: relative;
+    top: 530px;
+}
+
+.c-footer-border {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
+    position: relative;
+    top: 27px;
 }
